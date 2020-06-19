@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "ej-2-sharepoint-client-side-solution",
+    "id": "a7cb2ed6-c58a-4608-9fdc-99b774c2749a",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false
+  },
+  "paths": {
+    "zippedPackage": "solution/ej-2-sharepoint.sppkg"
+  }
+}

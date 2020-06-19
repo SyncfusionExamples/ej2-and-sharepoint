@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "grid-component-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/gridComponent/GridComponentWebPart.js",
+          "manifest": "./src/webparts/gridComponent/GridComponentWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "GridComponentWebPartStrings": "lib/webparts/gridComponent/loc/{locale}.js"
+  }
+}
