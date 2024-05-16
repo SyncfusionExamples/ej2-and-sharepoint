@@ -12,7 +12,11 @@ The Syncfusion JavaScript components can be used in the SharePoint Framework, wh
 * Open the project in the Visual Studio Code.
 * Execute the following command to install the necessary dependencies,</br>
 `npm install`
-* Change the initial path of the **server.json** to your sharepoint site instead of {tenantDomain}
+* Change the initial path of the **serve.json** to your sharepoint site instead of {tenantDomain}
+* Execute the following command to install Glup globally, </br>
+`npm install -g gulp` 
+* To prevent certificate-related issues, use the following command, </br>
+`gulp trust-dev-cert`
 * Run the project using following command, </br>
 `gulp serve`
 
