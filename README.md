@@ -13,7 +13,7 @@ The Syncfusion JavaScript components can be used in the SharePoint Framework, wh
 * Execute the following command to install the necessary dependencies,</br>
 `npm install`
 * Change the initial path of the **server.json** to your sharepoint site instead of {tenantDomain}
-* Run the project using flowwing command, </br>
+* Run the project using following command, </br>
 `gulp serve`
 
 ## Reference
