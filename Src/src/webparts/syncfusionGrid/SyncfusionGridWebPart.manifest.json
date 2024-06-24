@@ -1,7 +1,7 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
-  "id": "0b41cc29-7117-4281-98e7-bd035da2d1a2",
-  "alias": "GridComponentWebPart",
+  "id": "03d76458-d8f7-433b-a0ec-9dafc7ddcd3d",
+  "alias": "SyncfusionGridWebPart",
   "componentType": "WebPart",
 
   // The "*" signifies that the version should be taken from the package.json
@@ -12,16 +12,17 @@
   // Components that allow authors to embed arbitrary script code should set this to true.
   // https://support.office.com/en-us/article/Turn-scripting-capabilities-on-or-off-1f2c515f-5d7e-448a-9fd7-835da935584f
   "requiresCustomScript": false,
-  "supportedHosts": ["SharePointWebPart"],
+  "supportedHosts": ["SharePointWebPart", "TeamsPersonalApp", "TeamsTab", "SharePointFullPage"],
+  "supportsThemeVariants": true,
 
   "preconfiguredEntries": [{
-    "groupId": "5c03119e-3074-46fd-976b-c60198311f70", // Other
-    "group": { "default": "Other" },
-    "title": { "default": "GridComponent" },
-    "description": { "default": "GridComponent description" },
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70", // Advanced
+    "group": { "default": "Advanced" },
+    "title": { "default": "SyncfusionGrid" },
+    "description": { "default": "SyncfusionGrid description" },
     "officeFabricIconFontName": "Page",
     "properties": {
-      "description": "GridComponent"
+      "description": "SyncfusionGrid"
     }
   }]
 }
